@@ -1,0 +1,86 @@
+h1{
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+i {
+  vertical-align: bottom;
+}
+th {
+  text-transform: uppercase;
+}
+
+.brand-logo {
+  margin-left: 15px;
+}
+
+.parallax img{
+  filter: blur(5px);
+}
+
+.card .attach-to-bottom{
+  width: 95%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 40px;
+}
+.total-row {
+  font-weight: 700;
+}
+
+.input-field input[type=text]:focus,
+.input-field input[type=tel]:focus,
+.input-field input[type=email]:focus,
+.input-field input[type=number]:focus,
+ .input-field select:focus
+ {
+  border-bottom: 1px solid #42a5f5;
+  box-shadow: 0 1px 0 0 #42a5f5;
+}
+.input-field label.active {
+  color: #42a5f5 !important;
+}
+textarea.materialize-textarea:focus {
+  border-bottom: 1px solid #42a5f5 !important;
+  box-shadow: 0 1px 0 0 #42a5f5 !important;
+}
+.input-field .prefix.active,
+.input-field li span {
+  color: #42a5f5;
+}
+
+#hero-text {
+  position: relative;
+  top: 25%;
+}
+
+#previews img{
+  width: 100%;
+}
+
+#menu .card{
+  height: 550px;
+}
+#menu .card-image{
+  max-height: 250px;
+}
+#menu .card img{
+  max-height: 250px;
+  object-fit: cover;
+}
+#menu .card h6{
+  vertical-align: bottom;
+}
+
+#menu .card-action{
+  height: 60px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
